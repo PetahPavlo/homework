@@ -5,8 +5,10 @@
 // 
 
 
-// Ваш код ..
-
+let name = document.querySelector('input[name=fio]').value;
+let phoneNumber = document.querySelector('input[name=phone]').value;
+let dataOfBirth = document.querySelector('input[name=birthday]').value;
+let emailAddress = document.querySelector('input[name=email]').value;
 
 module.exports = {
     name,

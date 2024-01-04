@@ -9,10 +9,19 @@
 
 
 
-// module.exports = {
-//   firstEl,
-//   lastEl,
-//   secondtEl,
-//   fourthEl,
-//   thirdtEl,
-// };
+const list = document.getElementById('list');
+const listItems = list.getElementsByTagName('li');
+const firstEl = listItems[0].innerHTML;
+const lastEl = listItems[listItems.length - 1].innerHTML;
+const secondtEl = listItems[1].innerHTML;
+const fourthEl = listItems[3].innerHTML;
+const thirdtEl = listItems[2].innerHTML;
+
+
+ module.exports = {
+  firstEl,
+  lastEl,
+  secondtEl,
+  fourthEl,
+  thirdtEl,
+ };
